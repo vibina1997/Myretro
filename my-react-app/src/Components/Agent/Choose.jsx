@@ -1,7 +1,7 @@
 import React from 'react'
 import choose from '../../assets/choose.module.css'
 import agency from '../../assets/Imges/agency.jpg'
-import { div } from 'framer-motion/client'
+
 
 
 const Choose = () => {
