@@ -10,7 +10,8 @@ const Choose = () => {
     <div className={choose.section}>
       <div className={choose.sectionLeft}>
         <h1>
-        hi
+        Choose the Perfect Agency for Your <br />
+        Property Needs
         </h1>
         <p>
           Find trusted real estate experts to help you discover, buy, or sell
