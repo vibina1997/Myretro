@@ -15,7 +15,7 @@ const Choose = () => {
         </h1>
         <p>
           Find trusted real estate experts to help you discover, buy, or sell
-          your dream property with confidence.
+          your dream property with confidence
         </p>
       </div>
 
