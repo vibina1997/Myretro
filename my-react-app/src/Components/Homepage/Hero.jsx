@@ -8,7 +8,7 @@ const Hero = () => {
     <section className={`${styles.hero} position-relative`}>
       <div className="container">
 
-        {/* ⭐ HERO HEADING */}
+      
         <div className="row text-center text-md-start pt-5">
           <div className="col-md-8 mx-auto">
             <h1 className={`${styles.herosec} text-light fw-bold`}>
@@ -21,12 +21,11 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* 🔍 INPUT SECTION */}
         <div className={`${styles.inputese} mt-4`}>
           <div className="p-4 rounded shadow-sm bg-white bg-opacity-25">
             <div className="row g-3">
 
-              {/* Keyword */}
+           
               <div className="col-12 col-md-3 position-relative">
                 <p className="mb-1 text-white">Keyword</p>
                 <input
@@ -37,7 +36,7 @@ const Hero = () => {
                 <i className={`bi bi-search ${styles.inputIcon}`}></i>
               </div>
 
-              {/* Status */}
+            
               <div className="col-12 col-md-3">
                 <p className="mb-1 text-white">Status</p>
                 <select className="form-select">
@@ -48,7 +47,7 @@ const Hero = () => {
                 </select>
               </div>
 
-              {/* Type */}
+             
               <div className="col-12 col-md-3">
                 <p className="mb-1 text-white">Type</p>
                 <select className="form-select">
@@ -70,7 +69,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* ⭐ POPULAR SEARCHES */}
+        
         <div className={`popular-search mt-4 ${styles.popular}`}>
           <div className="d-flex align-items-center gap-2 flex-wrap justify-content-center">
             <h6 className="text-light mb-3">Popular Search:</h6>
