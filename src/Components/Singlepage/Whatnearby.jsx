@@ -41,11 +41,10 @@ const WhatNearby = () => {
   return (
     <div className="container mt-5">
       <div className="row">
-        {/* Left Column: What's Nearby */}
         <div className="col-md-6">
           <h4>What’s nearby</h4>
 
-          {/* Education */}
+       
           <div className="mt-3">
             <h5><i className="bi bi-mortarboard me-2"></i> Education</h5>
             <ul className="list-unstyled">

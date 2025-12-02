@@ -119,7 +119,7 @@ const Secondcom = () => {
             <div className="col-md-4" key={item.id}>
               <div className="card shadow-sm p-3" style={{ borderRadius: "12px" }}>
 
-                {/* Image */}
+               
                 <div style={{ position: "relative" }}>
                   <img
                     src={item.image}
@@ -128,7 +128,7 @@ const Secondcom = () => {
                     style={{ height: "200px", width: "100%", objectFit: "cover" }}
                   />
 
-                  {/* Tag buttons */}
+                
                   <div
                     style={{
                       position: "absolute",
@@ -147,7 +147,7 @@ const Secondcom = () => {
                   </div>
                 </div>
 
-                {/* Card Content */}
+             
                 <h5 className="fw-bold">{item.head}</h5>
                 <h4 className="text-primary fw-bold">₹{item.price}</h4>
 

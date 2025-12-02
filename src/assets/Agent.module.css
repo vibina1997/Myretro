@@ -57,9 +57,9 @@
   background-color: #0d2e44;
 }
 
-/* Responsive for smaller screens */
+
 @media (max-width: 768px) {
   .agentGrid {
-    grid-template-columns: 1fr; /* single column on mobile */
+    grid-template-columns: 1fr; 
   }
 }

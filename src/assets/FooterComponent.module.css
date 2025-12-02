@@ -71,7 +71,7 @@
   color: #0d0d0d;
 }
 
-/* Mobile Optimization */
+
 @media (max-width: 768px) {
   .logo {
     text-align: center;

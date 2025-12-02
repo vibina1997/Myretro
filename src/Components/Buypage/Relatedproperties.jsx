@@ -52,7 +52,7 @@ const RelatedProperties = () => {
 
       <div className="row g-4">
 
-        {/* LEFT SIDE - 4 CARDS */}
+       
         <div className="col-lg-7">
           <div className="row g-4">
             {cards.map((item) => (
@@ -85,7 +85,7 @@ const RelatedProperties = () => {
           </div>
         </div>
 
-        {/* RIGHT SIDE */}
+       
         <div className="col-lg-5">
           <img src={sideimage} className="img-fluid rounded-4 mb-3" />
 
@@ -122,7 +122,7 @@ const RelatedProperties = () => {
 
       </div>
 
-      {/* PAGINATION */}
+   
       <div className="d-flex justify-content-center mt-5">
         <nav>
           <ul className="pagination">

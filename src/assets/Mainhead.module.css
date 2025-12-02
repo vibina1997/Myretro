@@ -1,34 +1,30 @@
-/* -----------------------------------------
-   LIGHT BACKGROUND + SOFT GLASS OVERLAY
------------------------------------------ */
+
 .rSection {
-  background: linear-gradient(135deg, #062f4f, #d6eaf3); /* very light clean background */
+  background: linear-gradient(135deg, #062f4f, #d6eaf3); 
   padding: 50px 0;
   position: relative;
   overflow: hidden;
 }
 
-/* Soft light overlay + glass feel */
+
 .rSection::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.40);   /* brighter overlay */
-  backdrop-filter: blur(8px);              /* stronger glass blur */
+  background: rgba(255, 255, 255, 0.40);   
+  backdrop-filter: blur(8px);              
   -webkit-backdrop-filter: blur(8px);
   z-index: 0;
 }
 
-/* Make all content appear above overlay */
+
 .rSection * {
   position: relative;
   z-index: 1;
 }
 
 
-/* -----------------------------------------
-   GLASS SEARCH BOX
------------------------------------------ */
+
 .sBox {
   background: rgba(255, 255, 255, 0.30);
   backdrop-filter: blur(18px);
@@ -40,9 +36,7 @@
 }
 
 
-/* -----------------------------------------
-   GLASS INPUTS & SELECTS
------------------------------------------ */
+
 .slect {
   background: rgba(255, 255, 255, 0.25) !important;
   backdrop-filter: blur(10px);
@@ -58,9 +52,7 @@
 }
 
 
-/* -----------------------------------------
-   GLASS BUTTON
------------------------------------------ */
+
 .archBtn {
   background: rgba(255, 255, 255, 0.35) !important;
   backdrop-filter: blur(12px);
@@ -79,9 +71,7 @@
 }
 
 
-/* -----------------------------------------
-   HEADING
------------------------------------------ */
+
 .thead {
   font-size: 34px;
   font-weight: 800;
@@ -91,9 +81,7 @@
 }
 
 
-/* -----------------------------------------
-   RIGHT IMAGE
------------------------------------------ */
+
 .tImage {
   width: 100%;
   max-width: 500px;
@@ -102,9 +90,7 @@
 }
 
 
-/* -----------------------------------------
-   RESPONSIVE
------------------------------------------ */
+
 @media (max-width: 767px) {
   .thead {
     text-align: center;

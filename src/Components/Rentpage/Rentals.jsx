@@ -13,7 +13,7 @@ const Rentals = () => {
       <div className="container">
         <div className="row align-items-center">
 
-          {/* Left Column: Title + Search */}
+         
           <div className="col-md-7">
             <h1 className={rent.title}>
               Find Rentals That Match Your Lifestyle

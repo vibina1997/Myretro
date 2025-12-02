@@ -59,7 +59,7 @@ const Hero = () => {
                 </select>
               </div>
 
-              {/* Buttons */}
+           
               <div className="col-12 col-md-3 d-flex gap-3 mt-3 mt-md-4 flex-wrap">
                 <button className={`${styles.fillte} flex-fill`}>Filter</button>
                 <button className={`${styles.serch} flex-fill`}>Search</button>

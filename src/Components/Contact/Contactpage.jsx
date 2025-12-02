@@ -11,8 +11,7 @@ const Contactpage = () => {
       <div className="container">
         <div className={style.wrapper}>
           
-          {/* LEFT FORM SECTION */}
-          <div className={style.formcard}>
+       <div className={style.formcard}>
             <h3>Get in touch</h3>
             <p>Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus</p>
 
@@ -21,10 +20,7 @@ const Contactpage = () => {
             <input type="text" placeholder="Your phone" />
             <textarea placeholder="Your message"></textarea>
 
-            <button>Send Message</button>
-          </div>
-
-          {/* RIGHT INFO SECTION */}
+            <button>Send Message</button>          </div>
           <div className={style.infowrapper}>
             <h3>
               Feel free to <br /> contact us

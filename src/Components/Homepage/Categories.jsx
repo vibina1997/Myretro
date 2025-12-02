@@ -8,11 +8,26 @@ import { div } from 'framer-motion/client';
 
 
 const citiesdata = [
-  { id:1, name:"Town House", count:"2 properties", icon:"bi bi-house-door-fill" },
-  { id:2, name:"Morden villa", count:"10 properties", icon:"bi bi-building" },
-  { id:3, name:"Apartment", count:"3 properties", icon:"bi bi-building-fill" },
-  { id:4, name:"Office", count:"7 properties", icon:"bi bi-briefcase-fill" },
-  { id:5, name:"Single Family", count:"6 properties", icon:"bi bi-house-door-fill" }
+  { id:1,
+     name:"Town House", 
+     count:"2 properties",
+     icon:"bi bi-house-door-fill" },
+  { id:2,
+     name:"Morden villa", 
+     count:"10 properties",
+      icon:"bi bi-building" },
+  { id:3, 
+    name:"Apartment",
+     count:"3 properties",
+      icon:"bi bi-building-fill" },
+  { id:4, 
+    name:"Office", 
+    count:"7 properties", 
+    icon:"bi bi-briefcase-fill" },
+  { id:5,
+     name:"Single Family",
+      count:"6 properties", 
+      icon:"bi bi-house-door-fill" }
 ];
 
 

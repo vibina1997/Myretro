@@ -1,4 +1,4 @@
-import { img } from 'framer-motion/client'
+
 import React from 'react'
 import ofimg from '../../assets/Imges/offi.jpg'
 import oneoff from '../../assets/Imges/officeone.jpg'

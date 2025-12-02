@@ -109,12 +109,9 @@ const Propertyarea = () => {
     <section className="mt-4">
       <div className="container">
 
-        {/* Title */}
+       
         <h2 className="mb-3 fw-bold mt-3 py-5 text-center">
-          Premium Communities for Confident Home Buying
-        </h2>
-
-        {/* Cards */}
+          Premium Communities for Confident Home Buying        </h2>
         <div className="row g-4">
           {prodata.map(item => (
             <div className="col-12 col-sm-6 col-md-4" key={item.id}>

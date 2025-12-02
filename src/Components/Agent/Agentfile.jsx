@@ -5,7 +5,7 @@ import huma from '../../assets/Imges/human.jpg'
 import man from '../../assets/Imges/man.jpg'
 
 import agent from '../../assets/Agent.module.css'
-import { div } from 'framer-motion/client'
+
 
 
 const agenntdada = [

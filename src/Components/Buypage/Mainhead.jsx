@@ -19,7 +19,7 @@ const Mainhead = () => {
       <div className="container">
         <div className="row align-items-center">
 
-          {/* LEFT SIDE */}
+         
           <div className="col-md-7">
             <h1 className={buy.thead}>
               Trusted Solutions for Selling Your Property
@@ -68,7 +68,7 @@ const Mainhead = () => {
             </div>
           </div>
 
-          {/* RIGHT IMAGE */}
+         
           <div className="col-md-5 text-center">
             <img src={sell} alt="illustration" className={buy.tImage} />
           </div>

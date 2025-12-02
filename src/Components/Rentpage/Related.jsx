@@ -61,7 +61,7 @@ const Related = () => {
 
       <div className="row g-4">
 
-        {/* LEFT CARDS */}
+        
         <div className="col-lg-7">
           <div className="row g-4">
             {cards.map((item) => (
@@ -94,7 +94,7 @@ const Related = () => {
           </div>
         </div>
 
-        {/* RIGHT SIDE */}
+      
         <div className="col-lg-5">
           <img src={sideimage} className={`img-fluid rounded-4 mb-3 ${styles.bigImg}`} />
 

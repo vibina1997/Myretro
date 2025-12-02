@@ -72,7 +72,7 @@ const Tophead = () => {
               </div>
             </div>
 
-            {/* RIGHT IMAGE */}
+    
             <div className="col-md-5 text-center">
               <img
                 src={bannu}

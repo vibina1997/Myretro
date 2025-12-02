@@ -78,14 +78,14 @@ const Sellfaster = () => {
     <section className="mt-4">
       <div className="container py-5">
 
-        {/* Section Title */}
+      
         <div className={sell.sellfaster}>
           <h2 className="mb-4 text-center fw-bold">
             Sell Faster with Trusted Expertise
           </h2>
         </div>
 
-        {/* Cards Grid */}
+      
         <div className="row g-4 mt-3">
           {propertyData.map((item) => (
             <div className="col-12 col-sm-6 col-md-4" key={item.id}>
