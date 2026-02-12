@@ -39,7 +39,7 @@ const citiesdata = [
 
         <h3 className="text-light container">Featured Categories</h3>
         <p className="text-light container">
-          Buy, sell, or rent properties effortlessly with expert guidance and verified listings you can trust.
+          Buy, sell, or rent properties effortlessly with expert guidance and verified listings you can trst.
         </p>
 
         <div className="d-flex flex-wrap gap-3 justify-content-center mt-4">
